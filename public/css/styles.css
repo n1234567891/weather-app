@@ -1,13 +1,16 @@
 body {
-    color: #333333;
+    color: black;
     font-family: arial;
     max-width: 650px;
+    
     margin: 0 auto;
     padding: 0 16px;
-
+    
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+
+    background-image: url("weather.jpg");
 }
 
 .main-content {
@@ -15,8 +18,9 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: black;
     border-top: 1px solid #eeeeee;
+    font-weight: bold;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -32,7 +36,7 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: black;
     margin-right: 16px;
     text-decoration: none;
 }
